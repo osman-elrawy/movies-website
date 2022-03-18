@@ -1,0 +1,525 @@
+*{
+    box-sizing:border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+   
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+
+}
+
+h3.h33 {
+    margin-top: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 26px;
+}
+h4.h44 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 400;
+}
+h2.h22{
+    font-family: cursive;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+
+img{
+    width: 100%;
+}
+.header {
+    height: 530px;
+    background: url(../img/header.jpg) no-repeat center center/ cover ;
+    
+
+}
+.header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px; 
+}
+.header nav .btn-1{
+    background-color: red ;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+
+}
+
+
+.header  .logo{
+    width: 270px;
+    margin: 20px 0px;
+
+}
+.header .heder-conent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+.header .header-text1{
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.header  .header-text2{
+    font-size: 18px;
+    margin-top: 10px;
+    color:#e50814;
+    
+}
+.header .btn1{min-width: 137px;
+    padding: 13px 112px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-weight: 800;
+    font-size: large;
+    
+}
+.btn1:hover{
+    
+    background-color:rgb(25, 226, 32);
+    border-radius: 6px white ;
+    
+}
+
+ .sub {
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    gap: 40px;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgba(243, 9, 9, 0.938);  
+}
+.sub div:last-of-type{
+    justify-self: end;
+    align-items: end;
+}
+
+a.btn3{
+    background: none;
+    color: white;
+    border: solid 3px rgb(182, 172, 172);
+    text-transform: uppercase;
+    padding: 13px 29px;
+    font-size: larger;
+    
+  }
+  
+  .btn3:hover{
+
+    background-color: rgb(253, 24, 24);
+    border: solid 3px white;
+ 
+}
+
+  /* meddil pcs and text  */
+       .middel {
+      display: flex;
+      flex-direction: column;     
+      text-align: center;
+    padding: 90px 40px;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+    .text-middel1{
+        margin-bottom: 20px;
+        color: red;
+    }
+    .text-middel2{
+        margin-bottom: 30px;
+        font-size: 70px;
+    }
+    .text-middel3{
+        color: red;
+    }
+
+    /* show tv  */
+  
+
+    .middel .covers{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top:60px ;
+    
+    
+   
+   
+   }
+   
+   .middel  .covers>div{
+       height: 500px;
+       width: 300px;
+     
+   }
+
+   section .cover-pic1{
+    background: linear-gradient(rgb(228 5 5 / 52%),#00000009 ,#f50a0a21),url(../img/cover-1.jpg) no-repeat center center /cover;
+   
+}
+ 
+
+   section .cover-pic2{
+  
+    background: linear-gradient(rgb(228 5 5 / 52%),#0000000f ,#f50a0a30),url(../img/cover-2.jpg) no-repeat center/cover;
+    
+}
+
+section .cover-pic3{
+    background: linear-gradient(rgb(228 5 5 / 52%),#0000002d ,#f50a0a26),url(../img/cover-3.jpg) no-repeat center/cover;}
+   
+section .cover-pic4{
+    background: linear-gradient(rgb(228 5 5 / 52%),#00000000 ,#f50a0a00),url(../img/cover-4.jpg) center center /cover;
+}
+
+.covers h2{
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 11px;
+    color:white;
+    
+}
+
+section .text-titel{
+text-align: start;
+margin: 20px 10px;
+color: white;
+
+}
+
+
+  .live-sport .live-sports{
+    background: url('../img/live-sports.jpg')no-repeat  center center / cover ;
+   
+   height: 800px;
+
+   
+    position: relative; 
+     margin-top: 100px; 
+  
+}
+
+
+ 
+
+
+
+  .live-sport .live-contant{
+     position: absolute; 
+     top: 160px;
+    left: 100px; 
+    max-width: 550px;
+    text-align: center;
+    
+}
+section .live-logs {
+    width: 300px;
+    display: flex;   
+    flex-direction: row-reverse;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+section .live-logs img {
+    width: 60px;
+   
+}
+section .live-text1{
+    
+    font-weight: bold;
+    padding: 15px;
+    font-size: 30px;
+    font-family: system-ui;
+    
+}
+ 
+
+
+
+/* modell javascript  */
+.body{
+   
+   
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+ .box{
+    
+   
+    color: black;
+    background-color: white;
+    height: 421px;
+    width: 272px;
+    margin:10% auto;
+    padding: 31px;
+    border-radius: 10px;
+    position: relative;
+}
+ .box form{
+     
+    display: block;
+    padding: 10px;
+    margin: 20px 0;
+    text-transform: uppercase;
+ }
+.form-1 label{
+    display: block;
+    margin-top: 20px;
+ 
+
+
+}
+.form-1 input {
+    width: 100%;
+    border: 2px solid #ccc;
+    height: 35px;
+    border-radius: 10px;
+    
+
+}
+ .mddel-text{
+ font-weight: bold;
+
+
+
+
+
+}
+
+ .btn{
+    
+ 
+    background: black;
+    color: white;
+    width: 97%;
+    height: 30px;
+    border: none;
+    border-radius: 37px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.box .footer {
+
+   
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+  
+}
+ .footer .a {
+     color: steelblue;
+ }
+ .body .close1{
+   
+    
+    cursor: pointer;
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+ .up{
+     display: none;
+     width: 61px;
+     height: 55px;
+     background-color: red;
+     position: fixed;
+     top: 90%;
+     right: 20px;
+     z-index: 1;
+     color: white;
+    font-weight: bolder;
+    border: none;
+    font-size: larger;
+    border-radius: 8px;
+    
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* meadia QEARIY */
+
+@media(max-width: 1100px){
+  
+    .middel .covers{
+    grid-template-columns: 1fr 1fr;
+   
+} 
+a.btn3 {
+    font-size: small;
+}
+
+}
+
+
+@media (max-width:  768px){
+    .header .logo {
+        width: 200px;
+    }
+
+    .header .heder-conent{
+        text-align: center;
+    }
+    .header nav .btn-1{
+        margin-right: -25px;
+    }
+    .sub{
+        grid-template-columns: 1fr;
+        
+           
+    }
+    .img3{
+        margin: auto;
+        width: 239px;
+    }
+    .h33{
+        text-align: center;
+    }
+    .h44{
+        text-align: center;
+    }
+
+
+
+    
+a.btn3{
+    padding: 8px 15px;
+    font-size: inherit;
+    font-weight: inherit;
+}
+    .header .btn1{
+       
+    min-width: 176px;
+    padding: 7px 28px;
+    font-size: medium;
+    font-weight: 600;
+    }
+    
+.sub div:last-of-type{
+    justify-self: center;
+    align-items: center;
+}
+.text-middel3{
+    line-height: 1;
+}
+
+
+.middel .covers{
+    grid-template-columns: 1fr;
+   
+}
+
+
+
+.live-sport    .live-sports{
+   background: url('../img/live-sports-small.jpg') no-repeat center center  / cover;
+   
+ 
+} 
+
+
+.live-sport  .live-contant{
+ 
+    top: 285px;
+    left: 37px;
+    right: 47px;
+  
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
