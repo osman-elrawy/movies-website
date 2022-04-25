@@ -2,25 +2,30 @@
     box-sizing:border-box;
     margin: 0%;
     padding: 0%;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: black;
     color: white;
     overflow-x: hidden;
+  
    
 
 }
 
 ul{
     list-style-type: none;
-}
+ 
+} 
+
 
 a{
     color:black;
     text-decoration: none;
 
 }
+
 
 h3.h33 {
     margin-top: 10px;
@@ -51,13 +56,16 @@ img{
     
 
 }
-.header nav {
+ .header nav {
     display: flex;
     justify-content: flex-end;
     padding: 20px 40px; 
+    background-color: red;
+    scroll-behavior: smooth;
+    
 }
 .header nav .btn-1{
-    background-color: red ;
+    background-color: black ;
     padding: 5px 20px;
     border: none;
     color: white;
@@ -67,7 +75,9 @@ img{
     text-transform: uppercase;
     letter-spacing: 1px;
 
-
+}
+.header nav .btn-1:hover{
+    background-color: rgb(4, 180, 15);
 }
 
 
@@ -106,6 +116,7 @@ img{
     margin-top: 40px;
     font-weight: 800;
     font-size: large;
+  
     
 }
 .btn1:hover{
@@ -225,7 +236,7 @@ color: white;
 
 
   .live-sport .live-sports{
-    background: url('../img/live-sports.jpg')no-repeat  center center / cover ;
+    background: url('../img/live-sports.jpg') no-repeat  center center /cover ;
    
    height: 800px;
 
@@ -371,11 +382,74 @@ section .live-text1{
     right: 20px;
 }
 
+/* footer */
+/* Footer */
+.footer {
+    background: black;
+    color:white;
+  }
+  
+  .footer a {
+    color:white;
+  }
+  
+  .footer-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+  }
+  
+  .footer-lists {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-lists .list-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 3px;
+    border-top: 1px #ccc solid;
+    margin: 30px 0;
+  }
+  
+  .social-icons img {
+    width: 25px;
+    height: 25px;
+    margin-right: 25px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .up{
      display: none;
-     width: 61px;
-     height: 55px;
-     background-color: red;
+     width: 40px;
+     height: 60px;
+     background-color: rgb(255, 0, 0);
      position: fixed;
      top: 90%;
      right: 20px;
@@ -384,7 +458,9 @@ section .live-text1{
     font-weight: bolder;
     border: none;
     font-size: larger;
-    border-radius: 8px;
+    border-radius:  8px ;
+    cursor:pointer;
+    opacity: 0.8;
     
  }
  
@@ -424,7 +500,10 @@ a.btn3 {
     .header .logo {
         width: 200px;
     }
-
+    /* .hea nav  { 
+        display: flex;
+        flex-direction: column;
+    } */
     .header .heder-conent{
         text-align: center;
     }
@@ -491,13 +570,13 @@ a.btn3{
     top: 285px;
     left: 37px;
     right: 47px;
-  
 
 }
 
+.footer-lists {
+    flex-direction: column;
 }
-
-
+}
 
 
 

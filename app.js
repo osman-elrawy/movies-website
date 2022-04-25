@@ -38,10 +38,22 @@ function outside(e){
 //     }
 
 // }
-window.addEventListener('onscroll' ,goup);
-function goup (){
-    if(window.onscrollY>=600){
+
+var up=document.getElementsByClassName("up")[0]
+//  window.addEventListener('onscroll' ,goup);
+window.onscroll=function  (){
+    if(window.scrollY>=2000){
         console.log(window.onscrollY)
-        upto.style.display='block'
+        document.getElementsByClassName("up")[0].style.display="block"
+    }else{
+        document.getElementsByClassName("up")[0].style.display="none"
     }
 }
+document.getElementsByClassName("up")[0].onclick= function (){
+ window.scrollTo({
+     top:0,behavior:"smooth"
+ })
+
+} 
+// 2092.800048828125 test
+// 
